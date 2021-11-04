@@ -1,0 +1,75 @@
+/* Defining CSS color variables globally */
+:root {
+  --recovery-blue: #2596be;
+  --recovery-blue-bright: #2db1e0;
+  --worldwide-orange: #e4843c;
+}
+
+
+
+/* Primary text styles */
+section h1 {
+  text-align: center;
+  color: var(--recovery-blue);
+  font-family: 'Poppins', sans-serif;
+}
+
+section p {
+  text-align: center;
+  color: black;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+/* Return home button styles */
+.home_button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20vh;
+}
+
+.home_button :link {
+  background-color: var(--recovery-blue);
+  border-radius: 8px;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block; 
+}
+
+.home_button :visited {
+  background-color: var(--recovery-blue);
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.home_button :hover {
+  background-color: var(--recovery-blue-bright);
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+
+/* Footer styles */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: black;
+  text-align: center;
+  font-size: 12px;
+  font-family: 'Poppins', sans-serif;
+}
